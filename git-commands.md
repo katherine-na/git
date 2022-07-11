@@ -14,8 +14,6 @@ Este repositorio esta por defecto en el ordenador.
 
 Son versiones de un proyecto que estan hospedadas en Internet o en una red social (github.com, gitlab.com, etc)
 
-![](https://i.morioh.com/210405/3c59afec.webp)
-
 ## Branch
 
 Hace posible desarrollar nuevas funciones de un proyecto sin obstaculizar el desarrollo de la rama principal.
