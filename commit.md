@@ -41,15 +41,21 @@ fix(web): remove wrong color
 ```
 ### Tipo de cambio 
 
+### Usados regularmente en Front-End
 - docs: Cambios en la documentación.
-- style: Cambios de formato, tabulaciones, espacios o puntos y coma, etc; no afectan al usuario.
 - feat: Una nueva característica para el usuario.
+- style: Cambios de formato, tabulaciones, espacios o puntos y coma, etc; no afectan al usuario. Por ejemplo un cambio en CSS. 
+- content: Contenido para la aplicación. Por ejemplo un cambio en HTML.
 - fix: Corrige un error en la base del código.
+- chore: Limpiar un archivo.
+- refactor: Refactorización del código como cambios de nombre de variables o funciones.
+- admin: Agregando archivos o dependencias.
+
+### Menos usados en Front-End
+- test: Añade tests o refactoriza uno existente.
 - perf: Cambios que mejoran el rendimiento del sitio.
 - build: Cambios en el sistema de build, tareas de despliegue o instalación.
 - ci: Cambios en la integración continua.
-- refactor: Refactorización del código como cambios de nombre de variables o funciones.
-- test: Añade tests o refactoriza uno existente.
 
 
 ### Ejemplos
@@ -61,13 +67,17 @@ Change the information of article 30
 ```
 
 ```bsh
+feat(backend): add filter for cars
+```
+
+```bsh
 style(web): add punctuation marks 
 
 Add punctuation marks on the line 31
 ```
 
 ```bsh
-feat(backend): add filter for cars
+content(html): add images in the section
 ```
 
 ```bsh
@@ -75,21 +85,13 @@ fix(web): remove wrong color
 ```
 
 ```bsh
-perf(web):
-```
-
-```
-build(): update 
+chore(): clean directories and files
 ```
 
 ```bsh
-ci(docs):
+refactor(javascript): rename variables
 ```
 
-```
-refactor():
-```
-
-```
-test():
+```bsh
+admin(): new repository and new files
 ```
